@@ -1,0 +1,7 @@
+Implement at least two of these variants of the sub-gradient descent method from scratch and compare them to train a multi-layer ReLU network and a LASSO regression model. With appropriate acknowledgment, you can reuse ML model codes from some open-source repository or library. Compare their performance regarding training loss and test accuracy vs the number of epochs. 
+- Projected subgradient descent.
+- Proximal subgradient descent.
+- Stochastic subgradient descent.
+- Stochastic proximal subgradient descent.
+- Stochastic project subgradient descent.
+- Stochastic subgradient descent with momentum.
