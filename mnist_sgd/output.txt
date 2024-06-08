@@ -1,0 +1,39 @@
+X_train shape: (59000, 784)
+y_train shape: (59000,)
+X_val shape: (1000, 784)
+y_val shape: (1000,)
+X_test shape: (10000, 784)
+y_test shape: (10000,)
+Number of training examples: m_train = 59000
+Number of validation examples: m_validation = 1000
+Number of testing examples: m_test = 10000
+
+epoch 57 / 570: loss 1.015823, train_acc: 0.691406, val_acc: 0.698000
+epoch 114 / 570: loss 0.776762, train_acc: 0.784180, val_acc: 0.782000
+epoch 171 / 570: loss 0.683461, train_acc: 0.807617, val_acc: 0.789000
+epoch 228 / 570: loss 0.695982, train_acc: 0.796875, val_acc: 0.803000
+epoch 285 / 570: loss 0.698570, train_acc: 0.781250, val_acc: 0.800000
+epoch 342 / 570: loss 0.621057, train_acc: 0.823242, val_acc: 0.805000
+epoch 399 / 570: loss 0.614273, train_acc: 0.825195, val_acc: 0.831000
+epoch 456 / 570: loss 0.602238, train_acc: 0.815430, val_acc: 0.830000
+epoch 513 / 570: loss 0.616861, train_acc: 0.819336, val_acc: 0.812000
+epoch 570 / 570: loss 0.568933, train_acc: 0.830078, val_acc: 0.824000
+
+lr 2.500000e-04 reg 2.500000e-01 val accuracy: 0.854000
+lr 2.500000e-04 reg 5.000000e-01 val accuracy: 0.854000
+lr 2.500000e-04 reg 7.500000e-01 val accuracy: 0.837000
+lr 2.500000e-04 reg 1.000000e+00 val accuracy: 0.846000
+lr 5.000000e-04 reg 2.500000e-01 val accuracy: 0.836000
+lr 5.000000e-04 reg 5.000000e-01 val accuracy: 0.839000
+lr 5.000000e-04 reg 7.500000e-01 val accuracy: 0.810000
+lr 5.000000e-04 reg 1.000000e+00 val accuracy: 0.835000
+lr 7.500000e-04 reg 2.500000e-01 val accuracy: 0.806000
+lr 7.500000e-04 reg 5.000000e-01 val accuracy: 0.851000
+lr 7.500000e-04 reg 7.500000e-01 val accuracy: 0.812000
+lr 7.500000e-04 reg 1.000000e+00 val accuracy: 0.831000
+lr 1.000000e-03 reg 2.500000e-01 val accuracy: 0.805000
+lr 1.000000e-03 reg 5.000000e-01 val accuracy: 0.819000
+lr 1.000000e-03 reg 7.500000e-01 val accuracy: 0.830000
+lr 1.000000e-03 reg 1.000000e+00 val accuracy: 0.758000
+Best validation accuracy achieved during cross-validation: 0.854000
+Test accuracy:  0.8315
